@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,iBAGE,sBAAuB,CACvB,wBAAyB,CACzB,UAAc,CACd,iBACF","file":"main.759be971.chunk.css","sourcesContent":["*,\r\n*::before,\r\n*::after {\r\n  font-family: \"Capriola\";\r\n  background-color: #1d344d;\r\n  color: #ffffff;\r\n  text-align: center;\r\n}\r\n\r\n/* box-sizing: border-box; */"]}
