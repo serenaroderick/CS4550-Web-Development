@@ -1,0 +1,49 @@
+Please fill in answers to the questions below:
+
+
+1. What's your name?
+
+Serena Roderick
+
+2. What hostname did you deploy to?
+
+hw02.serenaroderick.ga
+
+3. What's the link to your repository on github with your code?
+
+https://github.com/serenaroderick/webdev
+
+4. How many HTML / CSS tutorial exercises did you do?
+
+Less than 5. I have prior experience with HTML / CSS
+
+5. How comfortable do you feel with HTML and CSS now?
+
+I found the HTML and CSS to be fairly easy aside from the layout in CSS
+
+6. How many JS tutorial exercises did you do?
+
+10-20, I had no experience in JS before this assignment
+
+7. How comfortable do you feel with JS now?
+
+I found JS easier to understand than I anticipated
+
+8. Do all of your HTML pages pass the W3C HTML validator?
+(https://validator.w3.org/)
+
+Yes
+
+9. Which parts of this assignment did you have trouble with, if any?
+
+Git and creating a subdomain, the host I used for assignment 1 only supported 1 subdomain and I didnt realize so I had to completely migrate my site to another host and lost all the progress I had from assignment 1.
+
+And here's a list of tasks for grading comments. Just leave this here:
+ - Task 1
+ - Task 2
+ - Task 3
+ - Task 4
+ - Task 5
+ - Task 6
+ - Task 7
+ - Task 8
