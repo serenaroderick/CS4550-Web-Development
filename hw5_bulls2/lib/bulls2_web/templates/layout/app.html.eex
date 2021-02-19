@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Bulls · Phoenix Framework</title>
+    <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+  </head>
+  <body>
+    <div>
+        <h1>4 Digits</h1>
+        <br></br>
+        <br></br>
+        <h3>Enter 4 unique digits to guess the secret code.</h3>
+        <h5>Bulls: number of digits correct in the right position</h5>
+        <h5>Cows: number of digits correct but in the wrong position</h5>
+        <br></br>
+        <h1 id="gameOver"></h1>
+        <br></br>
+        <form>
+          <input type="text" id="guess"></input>
+        </form>
+        <button id="check" onClick="check">Check</button>
+        <br></br>
+        <br></br>
+        <div id="counters">
+          <div class="counterBox">
+            <div>Cows:</div>
+            <div id="cows">0</div>
+          </div>
+          <br></br>
+          <div class="counterBox">
+            <div>Bulls:</div>
+            <div id="bulls">0</div>
+          </div>
+          <br></br>
+          <div class="counterBox">
+            <div>Lives:</div>
+            <div id="lives">8</div>
+          </div>
+        </div>
+        <br></br>
+        <div id="guesses">
+          <div id="1"></div>
+          <div id="2"></div>
+          <div id="3"></div>
+          <div id="4"></div>
+          <div id="5"></div>
+          <div id="6"></div>
+          <div id="7"></div>
+          <div id="8"></div>
+        </div>
+        <br></br>
+      </div>
+      <script defer type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>
+ 
+
