@@ -9,7 +9,7 @@ use Mix.Config
 
 # Configures the endpoint
 config :bulls2, Bulls2Web.Endpoint,
-  url: [host: "localhost"],
+  url: [host: "hw05.serenaroderick.ga"],
   secret_key_base: "kJCnS6BIGSTC/F5y1/rbiJ3yUoBmWORJRkuMKHaaP9RJkCvuijbe6V3phnrBpYkv",
   render_errors: [view: Bulls2Web.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: Bulls2.PubSub,

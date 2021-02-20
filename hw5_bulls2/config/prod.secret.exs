@@ -16,14 +16,14 @@ config :bulls2, Bulls2Web.Endpoint,
     port: String.to_integer(System.get_env("PORT") || "4000"),
     transport_options: [socket_opts: [:inet6]]
   ],
-  secret_key_base: secret_key_base
+  secret_key_base: "PBVlUidHRtgV6zTcCntp83J7JC03MwDCWyxHbteqRSDEJhr6rAl41op7e72jb9Aa"
 
 # ## Using releases (Elixir v1.9+)
 #
 # If you are doing OTP releases, you need to instruct Phoenix
 # to start each relevant endpoint:
 #
-#     config :bulls2, Bulls2Web.Endpoint, server: true
+     config :bulls2, Bulls2Web.Endpoint, server: true
 #
 # Then you can assemble a release by calling `mix release`.
 # See `mix help release` for more information.
